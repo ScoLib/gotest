@@ -21,4 +21,11 @@ func Map() {
 	}
 
 	fmt.Println(m["Bob"])
+
+	m2 := map[string]Vert {
+		"bbba": {38.234,325.23},
+		"jack": {23.244,324.344},
+	}
+
+	fmt.Print(m2)
 }
