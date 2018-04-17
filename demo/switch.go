@@ -6,6 +6,10 @@ import (
 	"time"
 )
 
+func init() {
+	fmt.Println("switch init")
+}
+
 func TSwitch() {
 	fmt.Print("Go run on ")
 	switch os := runtime.GOOS; os {
