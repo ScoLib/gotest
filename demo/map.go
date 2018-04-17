@@ -1,9 +1,15 @@
 package demo
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Vert struct {
 	Lat, Long float64
+}
+
+func init() {
+	fmt.Println("map init")
 }
 
 func Map() {

@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/scolib/gotest/demo"
-)
+import "github.com/scolib/gotest/demo"
 
 func main() {
 	//demo.Split(30)
@@ -12,12 +10,12 @@ func main() {
 	//demo.For()
 	//demo.TestIf()
 	//demo.TestLoops(4)
-	//demo.TSwitch()
+	demo.TSwitch()
 	//demo.TDefer()
 	//demo.Pointer()
 	//demo.TStruct()
 	//demo.Array()
 	//demo.Slice()
 	//demo.PrintPic()
-	demo.Map()
+	//demo.Map()
 }

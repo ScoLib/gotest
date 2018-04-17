@@ -43,4 +43,11 @@ func TSwitch() {
 	default:
 		fmt.Println("\n Good evening.")
 	}
+
+	switch letter := 'a'; letter {
+	case 'a', 'e', 'i', 'o', 'u':
+		fmt.Println("vowel")
+	default:
+		fmt.Println("not vowel")
+	}
 }
